@@ -1,0 +1,102 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+DisableDrives=I
+ProxyFavorIEConnectionSetting=Yes
+ProxyTimeout=30000
+ProxyType=Auto
+ProxyUseFQDN=Off
+RemoveICAFile=yes
+TransparentKeyPassthrough=Local
+TransportReconnectEnabled=Off
+Version=2
+VirtualCOMPortEmulation=On
+
+[ApplicationServers]
+Support Folder C289=
+
+[Support Folder C289]
+Address=;40;STA664590668;D1735FC5C81F3AFE23468A0AB872AE
+AutologonAllowed=ON
+BrowserProtocol=HTTPonTCP
+CGPSecurityTicket=On
+ClearPassword=4632E227B4AE98
+ClientAudio=On
+DesiredColor=8
+DesiredHRES=0
+DesiredVRES=0
+Domain=\95C9723816B1F682
+DoNotUseDefaultCSL=On
+EncryptionLevelSession=EncRC5-128
+FontSmoothingType=0
+HDXoverUDP=Off
+HTTPBrowserAddress=!
+InitialProgram=#Support Folder C289
+Launcher=WI
+LaunchReference=9AABEAA3581BE63FE133E58F1B67DB
+LocHttpBrowserAddress=!
+LogonTicket=4632E227B4AE9895C9723816B1F682
+LogonTicketType=CTXS1
+LongCommandLine=
+LPWD=2046
+NRWD=217
+ProxyTimeout=30000
+ProxyType=Auto
+SecureChannelProtocol=Detect
+SessionsharingKey=Blm9AzTV7jC1L7FEzV7b/uZvdPrpuyMu
+SFRAllowed=Off
+SSLCiphers=all
+SSLEnable=On
+SSLProxyHost=ag2.cernerworks.com:443
+startSCD=1622618404581
+Title=Support Folder C289
+TransportDriver=TCP/IP
+TRWD=0
+TWIMode=On
+WinStationDriver=ICA 3.0
+
+[Compress]
+DriverNameWin16=pdcompw.dll
+DriverNameWin32=pdcompn.dll
+
+[EncRC5-0]
+DriverNameWin16=pdc0w.dll
+DriverNameWin32=pdc0n.dll
+
+[EncRC5-128]
+DriverNameWin16=pdc128w.dll
+DriverNameWin32=pdc128n.dll
+
+[EncRC5-40]
+DriverNameWin16=pdc40w.dll
+DriverNameWin32=pdc40n.dll
+
+[EncRC5-56]
+DriverNameWin16=pdc56w.dll
+DriverNameWin32=pdc56n.dll
+
+[Support Folder B289A windowed]
+ScreenPercent=90
+TWIMode=Off
+
+[Support Folder C289 windowed]
+ScreenPercent=90
+TWIMode=Off
+
+[Support Folder P289 MTA windowed]
+ScreenPercent=90
+TWIMode=Off
+
+[Support Folder P289 QA windowed]
+ScreenPercent=90
+TWIMode=Off
+
+[Support Folder P289 windowed]
+ScreenPercent=90
+TWIMode=Off
+
+[Support Folder T289 windowed]
+ScreenPercent=90
+TWIMode=Off
+

@@ -8,35 +8,60 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    body,h1 {font-family: "Montserrat", sans-serif}
+    body, h1 {font-family: "Montserrat", sans-serif}
     img {margin-bottom: -7px}
     .w3-row-padding img {margin-bottom: 12px}
+    h2 {font-family: 'Brush Script MT', cursive;; position: absolute; left: 50px; top: 200px; color: #873600}
+    h3 {font-family:"Montserrat", sans-serif;position: absolute; left: 170px; top: 350px; color: #873600}
+    h4 {font-family:"Montserrat", sans-serif;position: absolute; left: 120px; top: 190px; color: #873600}
+    h5 {font-family:"Montserrat", sans-serif;position: absolute; left: 120px; top: 400px; color: #873600}
+
 </style>
+<body>
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+<nav class="w3-sidebar w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-white w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
       <i class="fa fa-remove"></i>
     </a>
-    <div class="w3-bar-block w3-center">
-      <a href="about/about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
-      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    <div style="background-image: url('images/background-25.jpeg');">
+      <div class="w3-bar-block w3-center">
+        <a href="recipes/recipes.html" class="w3-bar-item w3-button w3-text-dark-grey w3-hover-white"><b>Recipes</b></a>
+        <a href="#" class="w3-bar-item w3-button w3-text-dark-grey w3-hover-white"><b>Photos</b></a>
+        <a href="#" class="w3-bar-item w3-button w3-text-dark-grey w3-hover-white"><b>Shop</b></a>
+        <a href="#" class="w3-bar-item w3-button w3-text-dark-grey w3-hover-white"><b>Contact</b></a>
+      </div>
     </div>
 </nav>
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
 
+<div style="background-image: url('images/background-19.jpg');background-size:cover;">
+<!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px;">
     <!-- Header -->
     <div class="w3-opacity">
-    <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+      <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+    </div>
     <div class="w3-clear"></div>
-    <header class="w3-center w3-margin-bottom-edit">
-      <h1><b>MOM'S RECIPE</b></h1>
-      <p><b>You are a masterchef if you can cook like your MOM.</b></p>
-      <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
-    </header>
+      <header class="w3-center w3-margin-bottom-edit">
+        <p style="font-size:32vw"></p>
+        <h4 style="font-size:1.3vw"><b>───────────────────────✧❁✧───────────────────────</b></h4>
+        <h2 style="font-size:8vw"><b>MOM'S RECIPE</b></h2>
+        <h5 style="font-size:1.3vw"><b>───────────────────────✧❁✧───────────────────────</b></h5>
+        <h3 style="font-size:1.3vw"><b>You are a masterchef if you can cook like your MOM.</b></h3>
+        <p style="font-size:37vw"><b> </b></p>
+        <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+      </header>
+  </div>
 </div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <a href="https://www.instagram.com/bts_v_tae.tae/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
 <script>
     // Toggle grid padding
     function myFunction() {
